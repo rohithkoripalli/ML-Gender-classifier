@@ -39,7 +39,7 @@ x1 = accuracy_score(prediction1,B)
 x2 = accuracy_score(prediction2,B)
 x3 = accuracy_score(prediction3,B)
 
-# best prediction
+# best score
 if x1>x2 and x2>x3 :
 	print ("svm",x1)
 elif x2>x3 and x3>x1:
